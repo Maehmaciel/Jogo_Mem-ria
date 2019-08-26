@@ -1,0 +1,97 @@
+body{
+    height: 100%;
+    background-color: darkgray;
+
+    
+    }
+    html{
+        height:100%
+    }
+
+h1{
+  text-align: center;
+}
+.esconde{
+    display: none
+}
+h2{
+font-family: fantasy;
+}
+
+.linha{
+    margin: 5px;
+    display: -webkit-flex;
+    display: flex;
+    width: 25%;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+.op{ margin: 5px;
+    -webkit-flex:1;
+    -ms-flex:1;
+    flex:1;
+    background-color:pink;
+    width: 50px;
+    height:100px;
+    border-radius: 12px;
+    box-shadow: 3px 5px 3px 5px #888888;
+    }
+
+.um{
+    
+    background-color:pink;
+
+    
+
+}
+
+.dois{
+
+    background-color:blue;
+  
+    
+
+}
+
+.tres{
+
+    background-color:olive;
+
+    
+
+}
+.quatro{
+ 
+    background-color:paleturquoise;
+
+
+}
+
+.cinco{
+
+    background-color:goldenrod;
+
+}
+
+.seis{
+
+    background-color:lightslategrey;
+
+}
+
+.coluna{
+
+    background-color: black;
+
+}
+
+#botao{
+    width: 50%;
+    height: 100%;
+    background-color: darkslategrey;
+    color:white;
+    justify-content: center;
+    margin: 50% auto;
+    padding: 10px;
+}

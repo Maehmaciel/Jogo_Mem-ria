@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" type="text/css" href="estilo.css">
+    <script src="scripts.js"></script>
+    <title>Jogo da memoria</title>
+   
+</head>
+<body >
+    <header> <h1>JOGO DA MEMÓRIA</h1></header>
+    <main id="main" class="esconde" onload=abre()>
+        <div class="linha">
+            <div id="um_um" class="coluna op um" onclick=a('um_um')>
+            
+            </div>
+            <div  id="um_dois" class="coluna op dois" onclick=a('um_dois')>
+            
+            </div>
+            <div id="dois_um" class="coluna op um" onclick=a('dois_um')>
+                
+            </div>
+        </div>
+
+        <div class="linha">
+            <div id="um_tres" class="coluna op tres" onclick=a('um_tres')>
+            
+            </div>
+            <div id="dois_dois" class="coluna op dois" onclick=a('dois_dois')>
+            
+            </div>
+            <div id="um_quatro" class="coluna op quatro" onclick=a('um_quatro')>
+                
+            </div>
+        </div>
+
+        <div class="linha">
+            <div id="dois_tres" class="coluna op tres" onclick=a('dois_tres')>
+            
+            </div>
+            <div id="dois_quatro" class="coluna op quatro" onclick=a('dois_quatro')>
+            
+            </div>
+            <div id="um_cinco" class="coluna op cinco" onclick=a('um_cinco')>
+                
+            </div>
+        </div>
+
+        <div class="linha">
+            <div id="um_seis" class="coluna op seis" onclick=a('um_seis')>
+            
+            </div>
+            <div id="dois_seis" class="coluna op seis" onclick=a('dois_seis')>
+            
+            </div>
+            <div id="dois_cinco" class="coluna op cinco" onclick=a('dois_cinco')>
+                
+            </div>
+        </div>
+
+        <div  class="linha">
+            <h2 id="score"></h2>
+        </div>
+
+    
+    
+    </main>
+
+    <div  class="linha" onclick=jogar()>
+            <input id="botao" type="button" value="JOGAR" >
+         
+        </div>
+</body>
+</html>
