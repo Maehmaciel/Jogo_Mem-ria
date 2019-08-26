@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" type="text/css" href="estilo.css">
+    <script src="scripts.js"></script>
+    <title>Jogo da memoria</title>
+   
+</head>
+<body>
+    <div id="jogando" class="esconde">
+    <div id="score" class="linha"></div>
+    </div>
+    <div id="inicio" >
+        <div id="titulo" class="titulo" onmouseover='aparece_play()'>
+             <p><span style="color:blue;">J</span>
+                <span style="color:pink;">o</span>
+                <span style="color:yellow">g</span>
+                <span  style="color:green">o</span><br>
+                da 
+            &#x1F9E0;</p>
+                   <!-- <img src="https://img.ibxk.com.br/2013/12/21/21114643288084.jpg?w=1120&h=420&mode=crop&scale=both">-->
+        </div>
+        <div id="play" class="titulo esconde" onclick='cria()' onmouseout='aparece_titulo()'>
+            <p>PLAY</p>
+        </div>
+    </div>
+</body>
+</html>
